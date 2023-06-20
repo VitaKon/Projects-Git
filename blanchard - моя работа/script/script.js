@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".search-margin").classList.remove("active")
   });
 
-  // header dropdown 
+  // header dropdown
   document.querySelectorAll(".nav-category__btn").forEach(item => {
     item.addEventListener("click", function () {
       let btn = this;
@@ -228,6 +228,4 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     ]);
 
-    // modal
-    
 })
